@@ -1,5 +1,5 @@
 package com.javatpoint.beans;
-aaaa
+
 public class BookBean {
 private String callno,name,author,publisher;
 private int quantity,issued;
@@ -9,7 +9,7 @@ public BookBean() {
 }
 public BookBean(String callno, String name, String author, String publisher, int quantity) {
 	super();
-	this.callno = callno;
+	this.callno = calln000o;
 	this.name = name;
 	this.author = author;
 	this.publisher = publisher;
