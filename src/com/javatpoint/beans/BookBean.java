@@ -7,9 +7,9 @@ public BookBean() {
 	super();
 	// TODO Auto-generated constructor stub
 }
-public BookBean(String callno, String name, String author, String publisher, int quantity) {
+public BookBean(String callnoo, String name, String author, String publisher, int quantity) {
 	super();
-	this.callno = calln000o;
+	this.callno = callno;
 	this.name = name;
 	this.author = author;
 	this.publisher = publisher;
