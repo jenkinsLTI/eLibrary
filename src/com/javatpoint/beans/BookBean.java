@@ -1,5 +1,5 @@
 package com.javatpoint.beans;
-
+aaaa
 public class BookBean {
 private String callno,name,author,publisher;
 private int quantity,issued;
