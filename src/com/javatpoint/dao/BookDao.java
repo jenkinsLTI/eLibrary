@@ -39,7 +39,7 @@ public class BookDao {
 			ResultSet rs=ps.executeQuery();
 			while(rs.next()){
 				BookBean bean=new BookBean();
-				bean.setCallno(rs.getString("callnoo"));
+				bean.setCallno(rs.getString("callno"));
 				bean.setName(rs.getString("name"));
 				bean.setAuthor(rs.getString("author"));
 				bean.setPublisher(rs.getString("publisher"));
