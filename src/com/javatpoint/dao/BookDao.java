@@ -18,7 +18,7 @@ public class BookDao {
 		try{
 			Connection con=DB.getCon();
 			PreparedStatement ps=con.prepareStatement("insert into e_book values(?,?,?,?,?,?)");
-			ps.setString(1,bean.getCallno());
+			ps.setString(1,bean.getCallnoo());
 			ps.setString(2,bean.getName());
 			ps.setString(3,bean.getAuthor());
 			ps.setString(4,bean.getPublisher());
